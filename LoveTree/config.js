@@ -4,7 +4,7 @@ var config = {
         "我们在2022年4月30日相遇",
         "在2022年7月3号皆为伴侣",
         "You are my sun",
-        "Away love you",
+        "Alway love you",
     ],
     date: "2022-07-03T22:00:00",
     names: ["Amaris", "Rupert"]
