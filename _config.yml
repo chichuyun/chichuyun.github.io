@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Cosmos
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+keywords: Physics, Computer
+author: Rupert
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://chichuyun.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -28,7 +29,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+    - 'README.md'
+    - 'LoveTree/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -103,5 +106,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/chichuyun/chichuyun.github.io.git
+  repo: https://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@github.com/chichuyun/chichuyun.github.io.git
   branch: master
